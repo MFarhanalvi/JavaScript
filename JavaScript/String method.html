@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script>
+                var str="My name is FARHAN AHMAD is my";
+                //"Length" give length of string
+                var b=str.length;
+                document.write(b+"<br>");
+                
+                //"Tolowercase" convert string into small letters
+                var b=str.toLowerCase();
+                document.write(b+"<br>");
+
+                //"Touppercase" convert string into capital letters
+                var b=str.toUpperCase();
+                document.write(b+"<br>");
+
+                //"include" is used to find specific value or world in string
+                var b=str.includes("is");
+                document.write(b+"<br>");
+
+                //"Startwith" is used to search world in start of string
+                var b=str.startsWith('My');
+                document.write(b+"<br>");
+
+                //"Endwith" is used to search world at end of string
+                var b=str.endsWith("AHMAD");
+                document.write(b+"<br>");
+
+                //"search" is used to search world in a string and give its position
+                var b=str.search("AHMAD");
+                document.write(b+"<br>");
+
+                //"match" is used to search world and make it array
+                var b=str.match(/is/g);
+                document.write(b+"<br>");
+
+                //"replace" is used to replace world in  string
+                //"/is/g" "g" mean globaly replace
+                var b=str.replace(/is/g,"are");
+                document.write(b+"<br>");
+            </script>
+    </head>
+    
+    <body>
+        
+    </body>
+</html>

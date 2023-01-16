@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <!-- "Some" is used to find number that we give but "Every"  check all number -->
+            <script>
+             var ages=[9,7,18,12];
+             document.write(ages +"<br>");
+             var b=ages.some(checkadult);
+             document.write(b +"<br>");
+             function checkadult(a){
+                return a>=18;
+             }
+             var d=ages.every(checkadult);
+             document.write(d +"<br>");
+             function checkadult(e){
+                return e>=18;
+             }
+            </script>
+    </head>
+    
+    <body>
+        
+    </body>
+</html>

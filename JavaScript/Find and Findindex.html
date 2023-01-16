@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        // "Find" give us value that we take
+        var ages = [9, 7, 18, 12];
+        document.write(ages + "<br>");
+        var b = ages.find(checkadult);
+        document.write(b + "<br>");
+        function checkadult(a) {
+            return a >= 18;
+        }
+        //  "Findindex" give us the index number of value that we give
+        var d = ages.findIndex(checkadult);
+        document.write(d + "<br>");
+        function checkadult(e) {
+            return e >= 18;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
